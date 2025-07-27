@@ -94,7 +94,7 @@ function winner() {
 
     console.log(
       chalk.redBright(
-        `   Now Get a JOB! ʕ•ᴥ•ʔ \n`
+        `   Now Get a JOB! (ง'̀-'́)ง \n`
       )
     );
     process.exit(0);
