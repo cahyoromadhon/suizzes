@@ -11,12 +11,6 @@ A fun and interactive command-line (CLI) quiz app to test your knowledge of the 
 
 ## Installation
 
-Run Suizzes instantly without installing anything by using:
-
-```bash
-npx suizzes
-```
-
 To run Suizzes locally, follow these steps:
 
 1. Clone the repository:
@@ -30,10 +24,6 @@ To run Suizzes locally, follow these steps:
 3. Install the required dependencies:
    ```bash
    npm install chalk chalk-animation figlet gradient-string inquirer nanospinner
-   ```
-4. Run the quiz:
-   ```bash
-   node index.js
    ```
 
 ## Usage
