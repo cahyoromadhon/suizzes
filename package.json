@@ -1,5 +1,5 @@
 {
-  "name": "firequiz",
+  "name": "suizzes",
   "version": "0.0.4",
   "description": "Who wants to be a JavaScript millionaire?",
   "homepage": "https://fireship.io",
@@ -16,9 +16,9 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "chalk-animation": "^1.6.0",
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.0",
-    "inquirer": "^8.2.0",
-    "nanospinner": "^1.0.0"
+    "figlet": "^1.8.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.6",
+    "nanospinner": "^1.2.2"
   }
 }
