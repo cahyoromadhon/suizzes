@@ -141,12 +141,23 @@ async function question2() {
   return handleAnswer(answers.question_2 === 'Membuat smart contract');
 }
 
+async function question3() {
+  const answers = await inquirer.prompt({
+    name: 'question_3',
+    type: 'list',
+    message: 'Apa salah satu fitur utama Move yang membedakannya dari bahasa smart contract lain seperti Solidity?\n',
+    choices: ['Model resource-oriented programming', 'Dukungan untuk pengembangan game 3d', 'Kompatibilitas dengan semua database SQL', 'Eksekusi kode tanpa memerlukan blockchain'],
+  });
+return handleAnswer(answers.question_2 === 'Model resource-oriented programming');
+}
+
 // Run it with top-level await
 console.clear();
 await welcome();
 await askName();
 await question1();
 await question2();
+await question3();
 winner();
 
 // ini memungkinkan kita untuk menulis kode yang lebih bersih dan mudah dibaca tanpa harus membungkus seluruh kode dalam fungsi async
